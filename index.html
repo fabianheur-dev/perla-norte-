@@ -186,7 +186,7 @@
     const db = getFirestore(app);
 
     // API KEY INTEGRADA
-    const apiKey = "AIzaSyC_wdPbK-l0FXGVCv3iRZ9YghYx3fuedxA";
+    const apiKey = process.env.API_KEY;
 
     const App = {
       clients: [],
